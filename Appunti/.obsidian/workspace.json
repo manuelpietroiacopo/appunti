@@ -72,7 +72,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -195,7 +196,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "24382c5fb817ac0d",
+  "active": "da71da5e34f53df4",
   "lastOpenFiles": [
     "immagini/Pasted image 20250424190438.png",
     "immagini/Pasted image 20250424192711.png",
