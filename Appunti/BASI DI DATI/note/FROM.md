@@ -1,0 +1,1 @@
+Seleziona le tabelle da cui selezionare i record.

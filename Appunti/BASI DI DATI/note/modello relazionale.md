@@ -1,0 +1,2 @@
+E' un modello logico che utilizza tabelle e valori. Utilizza una struttura non posizionale, ovvero a ciascun dominio si associa un nome unico nella tabella, detto attributo, che ne descrive il ruolo.
+Uno schema di relazione è 

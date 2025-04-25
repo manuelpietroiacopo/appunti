@@ -1,0 +1,1 @@
+Indica la condizione da rispettare per selezionare quel record.
