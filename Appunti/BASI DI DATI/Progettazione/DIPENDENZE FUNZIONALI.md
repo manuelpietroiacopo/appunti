@@ -111,7 +111,8 @@ Sia F un insieme di FD su R(Z) e sia X->Y:
 
 
 ###### PROBLEMA
-La definizione di implicazione non è direttamente utilizzabile nella pratica • Essa prevede una quantificazione universale sulle istanze della base di dati (“per ogni istanza …”) 
+La definizione di implicazione non è direttamente utilizzabile nella pratica 
+• Essa prevede una quantificazione universale sulle istanze della base di dati (“per ogni istanza …”) 
 • Non abbiamo un algoritmo per calcolare tutte le dipendenze funzionali implicate da un insieme
 • **Armstrong** (1974) ha fornito delle ==regole di inferenza== che permettono di derivare costruttivamente tutte le dipendenze funzionali che sono implicate da un dato insieme iniziale F:
 
@@ -198,4 +199,9 @@ In sostanza, nello schema di FD, una chiave è tale se non è possibile ricavarl
 ![[Pasted image 20250424192247.png]]
 
 
-Dato lo schema R e le dipendenze funzionali F, 
+Dato lo schema R e le dipendenze funzionali F, calcolo F+, ovvero la chiusura di tutte le dipendenze funzionali implicate da F. (In sostanza tutto gli attributi che posso ricavare a partire da F e dalle dipendenze dello schema R).
+Il ciclo dello pseudo-codice itera, applicando le regole di Armstrong alle dipendenze ed eventualmente aggiungendo nuovi attributi ove possibile ricavarli e continua finchè F+ del ciclo precedente non è uguale a F+ del nuovo ciclo, e ciò implica che non si può più aggiungere nulla.
+
+Il risultato che otteniamo sarà un insieme di attributi, con minimo insieme pari all'attributo originale (nel caso di F+ questo sarà uguale a F).
+
+es.![[Pasted image 20250426161228.png]]
