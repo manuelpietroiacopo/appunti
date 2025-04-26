@@ -73,6 +73,10 @@ Essendo progetto chiave, un impiegato che non ne ha non viene inserito (es. un n
 
 **QUESTO ACCADE PERCHE' ABBIAMO CREATO UN'UNICA TABELLA CON INFORMAZIONI DIVERSE E SCONNESSE DIRETTAMENTE TRA LORO: abbiamo fatto un brodo!**
 
+(Una soluzione potrebbe essere: creare la tabella Impiegato, con attributi: Cognome, Funzione e Stipendio,  una tabella Partecipazione: Progetto, Impiegato, Bilancio; con vincolo d'integrità tra Cognome e Impiegato).
+
+
+
 ---
 ## **DEFINIZIONE DI FD**
 

@@ -11,12 +11,24 @@
             "id": "a1da4e6096855d47",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "immagini/Pasted image 20250424190257.png"
+                "file": "BASI DI DATI/DIPENDENZE FUNZIONALI.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250424190257"
+              "icon": "lucide-file",
+              "title": "DIPENDENZE FUNZIONALI"
             }
           }
         ]
@@ -72,8 +84,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -196,8 +207,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "da71da5e34f53df4",
+  "active": "a1da4e6096855d47",
   "lastOpenFiles": [
+    "immagini/Pasted image 20250424190257.png",
     "immagini/Pasted image 20250424190438.png",
     "immagini/Pasted image 20250424192711.png",
     "BASI DI DATI/DIPENDENZE FUNZIONALI.md",
@@ -208,7 +220,6 @@
     "immagini/Pasted image 20250424190328.png",
     "immagini/Pasted image 20250424190313.png",
     "immagini/Pasted image 20250424190305.png",
-    "immagini/Pasted image 20250424190257.png",
     "BASI DI DATI/esercizi/DIPENDENZE FUNZIONALI.md",
     "immagini",
     "BASI DI DATI/note/COMMON TABLE EXPRESSION (CTE).md",
