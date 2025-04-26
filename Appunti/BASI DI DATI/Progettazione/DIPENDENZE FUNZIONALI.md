@@ -204,7 +204,10 @@ in breve è l'insieme delle dipedenze derivabili da F, l'insieme di dipendenze d
 Può essere molto costoso nei casi reali: il costo è esponenziale per numero di attributi, e in casi reali costa molto.
 E' più pratico e utile infatti conoscere X+, ovvero l'insieme di attributi ottenibili dall'attributo di partenza X: per ottenere l'insieme che risponde alla domanda:"Quali attributi posso ottenere a partire da X?", è necessario applicare le leggi di Armstrong sull'insieme di dipendenze F sullo schema R e aggiungere, ogni volta che un attributo è ottenibile da una dipendenza, questo all'insieme, fino a che: 
 A) ho ottenuto tutti gli attributi di partenza, quindi X è chiave
-B) controllando ciclicamente, applicando eventualmente [[#DERIVAZIONE|le leggi di Armstrong]] sulle dipendenze, gli attributi del ciclo precedente rispetto al corrente sono gli stessi: ciò vuol dire che 
+B) controllando ciclicamente, applicando eventualmente [[#DERIVAZIONE|le leggi di Armstrong]] sulle dipendenze, gli attributi del ciclo precedente rispetto al corrente sono gli stessi: ciò vuol dire che non è possibile ottenerne altri.
+![[Pasted image 20250426170044.png]]
+
+
 
 
 es.![[Pasted image 20250426161228.png]]
