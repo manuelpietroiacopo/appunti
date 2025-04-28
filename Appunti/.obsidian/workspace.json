@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BASI_DI_DATI/SQL/appunti/DATE IN SQL.md",
+                "file": "BASI_DI_DATI/Progettazione/DIPENDENZE FUNZIONALI.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DATE IN SQL"
+              "title": "DIPENDENZE FUNZIONALI"
             }
           }
         ]
@@ -207,10 +207,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "24382c5fb817ac0d",
+  "active": "a1da4e6096855d47",
   "lastOpenFiles": [
-    "BASI_DI_DATI/SQL/appunti/IL RAGGRUPPAMENTO.md",
     "BASI_DI_DATI/SQL/appunti/DATE IN SQL.md",
+    "BASI_DI_DATI/SQL/appunti/IL RAGGRUPPAMENTO.md",
     "BASI_DI_DATI/SQL/appunti/SUBQUERY.md",
     "BASI_DI_DATI/SQL/appunti/SOMMA E MEDIA.md",
     "BASI_DI_DATI/SQL/appunti/JOIN.md",

@@ -25,7 +25,7 @@ Per evitare problemi conviene togliere TotDaPagare dalla tabella Fattura.
 
 ---
 
-![[Pasted image 20250424110955.png]]
+![hh](immagini/Pasted%20image%2020250424110955.png)
 
 Per evitare ridondanze e inconsistenze (NumAb deve essere uguale per tutti i cittadini con NomeCittaRes uguale), si può sistemare dividendo Anagrafe in due relazioni separate:
 - Persona (CF, NomePersona, ViaRes, NomeCittaRes)
@@ -64,7 +64,7 @@ Non costituisce una metodologia di progettazione, quindi non bisogna partire da 
 ---
 es. Schema con anomalie 
 
-![[Pasted image 20250424112614.png]]
+![hh](immagini/Pasted%20image%2020250424112614.png)
 
 Lo stipendio è ridondante, è presente in ogni tupla, e nel caso in cui questo vari, bisogna cambiarlo per ogni tupla.
 Se uno degli impiegati annulla la partecipazione a tutti i progetti, va cancellato (**anomalia di cancellazione**)
@@ -80,21 +80,21 @@ Essendo progetto chiave, un impiegato che non ne ha non viene inserito (es. un n
 ---
 ## **DEFINIZIONE DI FD**
 
-![[Pasted image 20250424112942.png]]
+![hh](immagini/Pasted%20image%2020250424112942.png)
 
 
 
 
 
 
-![[Pasted image 20250424114850.png]]
+![hh](immagini/Pasted%20image%2020250424114850.png)
 
 
 ---
 
 
-| ![[Pasted image 20250424115516.png]] | ![[Pasted image 20250424115705.png]] |
-| ------------------------------------ | ------------------------------------ |
+| ![hh](immagini/Pasted%20image%2020250424115516.png) | ![hh](immagini/Pasted%20image%2020250424115705.png) |
+| --------------------------------------------------- | --------------------------------------------------- |
 
 Impiegato->Stipendio **RIPETIZIONI**
 Progetto->Bilancio **RIPETIZIONI**
@@ -133,24 +133,24 @@ Dati:
 - fm=f
 -  ogni fi è elemento di F oppure è ottenuta dalle altre dipendenze utilizzando la regola dell'interferenza RI
 
-![[Pasted image 20250424122008.png]]
+![hh](immagini/Pasted%20image%2020250424122008.png)
 
 
 
-![[Pasted image 20250424122026.png]]
+![hh](immagini/Pasted%20image%2020250424122026.png)
 
 ---
 ### DIMOSTRAZIONI
 
-| ![[Pasted image 20250424190257.png]] | ![[Pasted image 20250424190305.png]] |     |
-| ------------------------------------ | ------------------------------------ | --- |
-| ![[Pasted image 20250424190313.png]] | ![[Pasted image 20250424190328.png]] |     |
+| ![hh](immagini/Pasted%20image%2020250424190257.png) | ![hh](immagini/Pasted%20image%2020250424190305.png) |     |
+| --------------------------------------------------- | --------------------------------------------------- | --- |
+| ![hh](immagini/Pasted%20image%2020250424190313.png) | ![hh](immagini/Pasted%20image%2020250424190328.png) |     |
 
 ---
 ### CORRETTEZZA E COMPLETEZZA
 
 
-![[Pasted image 20250424190947.png]]
+![hh](immagini/Pasted%20image%2020250424190947.png)
 
 
 Corretto: se dalla deduzione/implicazione funzionale si ricava la dipendenza logica.
@@ -163,7 +163,7 @@ Completo: se dalla dipendenza logica si ottiene sempre la deduzione funzionale.
 
 ### CHIUSURA DEGLI ATTRIBUTI
 
-![[Pasted image 20250424190438.png]]
+![hh](immagini/Pasted%20image%2020250424190438.png)
 
 
 Appartengono ad X tutti gli elementi che possono essere derivati da X, ovvero che ne dipendono.
@@ -173,7 +173,7 @@ Appartengono ad X tutti gli elementi che possono essere derivati da X, ovvero ch
 ## TEOREMA DELLA CHIUSURA DEGLI ATTRIBUTI
 
 
-![[Pasted image 20250424190519.png]]
+![hh](immagini/Pasted%20image%2020250424190519.png)
 
 Ovvero: se da F deriva la dipendenza tra X e Y, allora Y fa parte dell'insieme X+, ovvero tutti gli elementi che possono essere determinati a partire da X, ovvero che dipendono da questo.
 In questo caso Y dipende da X.
@@ -183,20 +183,20 @@ In questo caso Y dipende da X.
 
 **LE REGOLE DI INFERENZA DI ARMSTRONG SONO CORRETTE E COMPLETE**, ma non sono le uniche!!!!!
 IMPORTANTE
-![[Pasted image 20250424192711.png]]
+![hh](immagini/Pasted%20image%2020250424192711.png)
 
 ___
 
-![[Pasted image 20250424192746.png]]
+![hh](immagini/Pasted%20image%2020250424192746.png)
 
 ---
-![[Pasted image 20250424131800.png]]
+![hh](immagini/Pasted%20image%2020250424131800.png)
 
 In sostanza, nello schema di FD, una chiave è tale se non è possibile ricavarla da altro se non sè stessa.
 (Banalmente se sta solo a sinistra della freccia)
 
 ----
-![[Pasted image 20250424192247.png]]
+![hh](immagini/Pasted%20image%2020250424192247.png)
 
 
 Dato lo schema R e le dipendenze funzionali F, calcolo F+, ovvero la chiusura di tutte le dipendenze funzionali implicate da F: 
@@ -205,9 +205,9 @@ Può essere molto costoso nei casi reali: il costo è esponenziale per numero di
 E' più pratico e utile infatti conoscere X+, ovvero l'insieme di attributi ottenibili dall'attributo di partenza X: per ottenere l'insieme che risponde alla domanda:"Quali attributi posso ottenere a partire da X?", è necessario applicare le leggi di Armstrong sull'insieme di dipendenze F sullo schema R e aggiungere, ogni volta che un attributo è ottenibile da una dipendenza, questo all'insieme, fino a che: 
 A) ho ottenuto tutti gli attributi di partenza, quindi X è chiave
 B) controllando ciclicamente, applicando eventualmente [[#DERIVAZIONE|le leggi di Armstrong]] sulle dipendenze, gli attributi del ciclo precedente rispetto al corrente sono gli stessi: ciò vuol dire che non è possibile ottenerne altri.
-![[Pasted image 20250426170044.png]]
+![hh](immagini/Pasted%20image%2020250426170044.png)
 
 
 
 
-es.![[Pasted image 20250426161228.png]]
+![hh](immagini/Pasted%20image%2020250426161228.png)
