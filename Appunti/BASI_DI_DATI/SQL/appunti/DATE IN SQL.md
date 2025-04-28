@@ -1,6 +1,6 @@
 Le date in SQL vengono gestite in maniera particolare:
 
-![[Pasted image 20250419160158.png]]
+![Pasted image 20250419160158.png](../../../immagini/Pasted%20image%2020250419160158.png)
 
 La funzione DATE_FORMAT permette di manipolare l'impostazione della data, così da poter ottenere la data secondo il formato desiderato, di seguito l'esempio:
 *Indicare matricola e data di laurea (nel formato ‘dd|mm|yyyy, nome_giorno’) [...]*
