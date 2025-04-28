@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BASI_DI_DATI/Progettazione/DIPENDENZE FUNZIONALI.md",
+                "file": "BASI_DI_DATI/SQL/appunti/DATE IN SQL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DIPENDENZE FUNZIONALI"
+              "title": "DATE IN SQL"
             }
           }
         ]
@@ -209,13 +209,14 @@
   },
   "active": "a1da4e6096855d47",
   "lastOpenFiles": [
-    "BASI_DI_DATI/SQL/appunti/DATE IN SQL.md",
     "BASI_DI_DATI/SQL/appunti/IL RAGGRUPPAMENTO.md",
-    "BASI_DI_DATI/SQL/appunti/SUBQUERY.md",
-    "BASI_DI_DATI/SQL/appunti/SOMMA E MEDIA.md",
     "BASI_DI_DATI/SQL/appunti/JOIN.md",
     "BASI_DI_DATI/SQL/appunti/COME FUNZIONA SQL.md",
     "BASI_DI_DATI/Progettazione/DIPENDENZE FUNZIONALI.md",
+    "BASI_DI_DATI/SQL/appunti/CONTEGGIO IN SQL.md",
+    "BASI_DI_DATI/SQL/appunti/DATE IN SQL.md",
+    "BASI_DI_DATI/SQL/appunti/SUBQUERY.md",
+    "BASI_DI_DATI/SQL/appunti/SOMMA E MEDIA.md",
     "BASI_DI_DATI/SQL/appunti/immagini/Pasted.md",
     "BASI_DI_DATI/SQL/appunti/immagini",
     "BASI.md",
@@ -242,7 +243,6 @@
     "BASI_DI_DATI/note/WHERE.md",
     "BASI_DI_DATI/note/SUBQUERY SCALARI.md",
     "BASI_DI_DATI/note/SELECT.md",
-    "BASI_DI_DATI/SQL/appunti/CONTEGGIO IN SQL.md",
     "BASI_DI_DATI/SQL/indice/Pasted image 20250417140408.png.md",
     "BASI_DI_DATI/SQL/indice/SINTASSI SQL.md",
     "2025-04-18.md",

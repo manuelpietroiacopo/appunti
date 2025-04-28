@@ -8,7 +8,7 @@ es.
 [[FROM]] Visita
 [[WHERE]] Data = ‘2013-03-01’;
 
-il ritorno è           ![[Pasted image 20250419163921.png]]
+il ritorno è           ![Pasted image 20250419163921](../../../immagini/Pasted%20image%2020250419163921.png)
 
 
 #### COME OPERA?
