@@ -19,7 +19,7 @@ Se queste possono verificarsi è bene rilevarle e assicurarsi che le basi di dat
 Bisogna evitare di mettere una relazione i cui attributi contengono tanti valori NULL, o perlomeno di limitarne la presenza in casi eccezionali.
 
 
-![Pasted image 20250424110915.png](C:\doc\Appunti\BASI DI DATI\immagini)
+![Ciao](immagini/Pasted image 20250424110915.png)
 Il problema esiste nel momento in cui l'IVA cambia poichè il TotDaPagare va cambiato per ogni record; a CodProd va attribuita la giusta percentuale di IVA. 
 Per evitare problemi conviene togliere TotDaPagare dalla tabella Fattura.
 

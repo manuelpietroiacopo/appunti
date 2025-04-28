@@ -34,9 +34,9 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "BASI DI DATI/SQL": "LiAudioWaveform",
-  "BASI DI DATI/SQL/indice": "LiAlignLeft",
-  "BASI DI DATI/SQL/appunti": "LiAward",
-  "BASI DI DATI/esercizi": "LiBackpack",
-  "BASI DI DATI/note": "LiArrowUpZa"
+  "BASI_DI_DATI/note": "LiArrowUpZa",
+  "BASI_DI_DATI/SQL": "LiAudioWaveform",
+  "BASI_DI_DATI/esercizi": "LiBackpack",
+  "BASI_DI_DATI/SQL/indice": "LiAlignLeft",
+  "BASI_DI_DATI/SQL/appunti": "LiAward"
 }
