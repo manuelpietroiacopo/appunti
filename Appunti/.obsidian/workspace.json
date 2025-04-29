@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BASI_DI_DATI/SQL/appunti/DATE IN SQL.md",
+                "file": "ALGORITMI/COMPLESSITA' DEGLI ALGORITMI.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DATE IN SQL"
+              "title": "COMPLESSITA' DEGLI ALGORITMI"
             }
           }
         ]
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BASI DI DATI/SQL/indice/note/JOIN.md",
+                "file": "ALGORITMI/COMPLESSITA' DEGLI ALGORITMI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Collegamenti in uscita da JOIN"
+              "title": "Collegamenti in uscita da COMPLESSITA' DEGLI ALGORITMI"
             }
           },
           {
@@ -209,10 +209,23 @@
   },
   "active": "a1da4e6096855d47",
   "lastOpenFiles": [
+    "Pasted image 20250429105902.png",
+    "Pasted image 20250429105835.png",
+    "Pasted image 20250429105734.png",
+    "ALGORITMI/immagini/Pasted image 20250429105700.png",
+    "ALGORITMI/immagini/Pasted image 20250429105536.png",
+    "ALGORITMI/immagini/Pasted image 20250429102626.png",
+    "immagini/Pasted.md",
+    "ALGORITMI/COMPLESSITA' DEGLI ALGORITMI.md",
+    "immagini",
+    "ALGORITMI/immagini",
+    "ALGORITMI/immagini/Pasted image 20250429094556.png",
+    "ALGORITMI.md",
+    "ALGORITMI",
+    "BASI_DI_DATI/SQL/appunti/DATE IN SQL.md",
     "BASI_DI_DATI/SQL/appunti/SUBQUERY.md",
     "BASI_DI_DATI/SQL/appunti/immagini/Pasted.md",
     "BASI_DI_DATI/SQL/appunti/JOIN.md",
-    "BASI_DI_DATI/SQL/appunti/DATE IN SQL.md",
     "BASI_DI_DATI/note/COMMON TABLE EXPRESSION (CTE).md",
     "BASI_DI_DATI/note/SUBQUERY SCALARI.md",
     "BASI_DI_DATI/note/WHERE.md",
@@ -224,12 +237,6 @@
     "BASI_DI_DATI/Progettazione/immagini1/Pasted image 20250426170044.png",
     "BASI_DI_DATI/Progettazione/immagini1/Pasted image 20250424192247.png",
     "BASI_DI_DATI/Progettazione/immagini1/Pasted image 20250424192746.png",
-    "BASI_DI_DATI/Progettazione/immagini1/Pasted image 20250424192711.png",
-    "BASI_DI_DATI/Progettazione/immagini1/Pasted image 20250424190519.png",
-    "BASI_DI_DATI/Progettazione/immagini1/Pasted image 20250424190947.png",
-    "BASI_DI_DATI/Progettazione/immagini1/Pasted image 20250424190438.png",
-    "BASI_DI_DATI/Progettazione/immagini1/Pasted image 20250424190328.png",
-    "BASI_DI_DATI/Progettazione/immagini1/Pasted image 20250424190313.png",
     "BASI_DI_DATI/Progettazione/immagini1",
     "BASI_DI_DATI/SQL/appunti/IL RAGGRUPPAMENTO.md",
     "BASI_DI_DATI/SQL/appunti/COME FUNZIONA SQL.md",
@@ -245,16 +252,10 @@
     "ortopedici.md",
     "BASI_DI_DATI/esercizi/esercizi.md",
     "BASI_DI_DATI/note/DIVISIONE.md",
-    "BASI_DI_DATI/SQL/indice/Pasted image 20250417140408.png.md",
-    "BASI_DI_DATI/SQL/indice/SINTASSI SQL.md",
-    "2025-04-18.md",
     "Senza nome.canvas",
     "BASI_DI_DATI",
     "BASI_DI_DATI/SQL/appunti",
     "Untitled.canvas",
-    "BASI_DI_DATI/esercizi",
-    "BASI_DI_DATI/SQL/indice",
-    "BASI_DI_DATI/note",
-    "BASI_DI_DATI/SQL"
+    "BASI_DI_DATI/esercizi"
   ]
 }
