@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ALGORITMI/COMPLESSITA' DEGLI ALGORITMI.md",
+                "file": "BASI_DI_DATI/Progettazione/DIPENDENZE FUNZIONALI.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "COMPLESSITA' DEGLI ALGORITMI"
+              "title": "DIPENDENZE FUNZIONALI"
             }
           }
         ]
@@ -209,8 +209,8 @@
   },
   "active": "a1da4e6096855d47",
   "lastOpenFiles": [
-    "immagini/Pasted.md",
     "ALGORITMI/COMPLESSITA' DEGLI ALGORITMI.md",
+    "immagini/Pasted.md",
     "ALGORITMI/imalg/Pasted image 20250429094556.png",
     "ALGORITMI/immagini/Senza nome",
     "ALGORITMI/imalg/Pasted image 20250429140024.png",
