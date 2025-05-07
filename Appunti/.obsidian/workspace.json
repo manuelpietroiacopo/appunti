@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a1da4e6096855d47",
+            "id": "892285d4776599e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BASI_DI_DATI/Progettazione/DIPENDENZE FUNZIONALI.md",
+                "file": "BASI_DI_DATI/Progettazione/NORMALIZZAZIONE.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DIPENDENZE FUNZIONALI"
+              "title": "NORMALIZZAZIONE"
             }
           }
         ]
@@ -207,9 +207,32 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a1da4e6096855d47",
+  "active": "24382c5fb817ac0d",
   "lastOpenFiles": [
+    "BASI_DI_DATI/Progettazione/immagini/Pasted image 20250507153616.png",
+    "BASI_DI_DATI/SQL/appunti/JOIN.md",
+    "BASI_DI_DATI/Progettazione/DIPENDENZE FUNZIONALI.md",
+    "BASI_DI_DATI/Progettazione/NORMALIZZAZIONE.md",
+    "BASI_DI_DATI/Progettazione/immagini/Pasted image 20250507095803.png",
+    "BASI_DI_DATI/SQL/appunti/RIPASSO AL FLY.md",
+    "BASI_DI_DATI/SQL/appunti/DATE IN SQL.md",
+    "BASI_DI_DATI/note/DATE_ADD.md",
+    "BASI_DI_DATI/esercizi/es query.md",
+    "BASI_DI_DATI/esercizi/es DF.md",
+    "BASI_DI_DATI/SQL/appunti/IL RAGGRUPPAMENTO.md",
+    "BASI_DI_DATI/SQL/appunti/SUBQUERY.md",
+    "HAVING.md",
+    "BASI_DI_DATI/note/DIVISIONE.md",
+    "BASI_DI_DATI/Progettazione/immagini/Pasted image 20250502144908.png",
+    "BASI_DI_DATI/esercizi/NON CORRELATED SUBQUERY.md",
+    "BASI_DI_DATI/esercizi/CORRELATED SUBQUERY ESERCIZI.md",
     "ALGORITMI/COMPLESSITA' DEGLI ALGORITMI.md",
+    "imalg/Pasted.md",
+    "ALGORITMI/Senza nome.md",
+    "imalg",
+    "ALGORITMI/imalg/Pasted image 20250502103729.png",
+    "BASI_DI_DATI/Progettazione/immagini/Pasted image 20250430114454.png",
+    "BASI_DI_DATI/esercizi/link esercizi.md",
     "immagini/Pasted.md",
     "ALGORITMI/imalg/Pasted image 20250429094556.png",
     "ALGORITMI/immagini/Senza nome",
@@ -218,43 +241,21 @@
     "ALGORITMI/imalg/Pasted image 20250429105835.png",
     "ALGORITMI/imalg/Pasted image 20250429105734.png",
     "ALGORITMI/imalg/Pasted image 20250429105700.png",
-    "ALGORITMI/imalg/Pasted image 20250429105536.png",
-    "ALGORITMI/imalg/Pasted image 20250429102626.png",
     "immagini",
     "ALGORITMI/imalg",
     "ALGORITMI.md",
     "ALGORITMI",
-    "BASI_DI_DATI/SQL/appunti/DATE IN SQL.md",
-    "BASI_DI_DATI/SQL/appunti/SUBQUERY.md",
     "BASI_DI_DATI/SQL/appunti/immagini/Pasted.md",
-    "BASI_DI_DATI/SQL/appunti/JOIN.md",
     "BASI_DI_DATI/note/COMMON TABLE EXPRESSION (CTE).md",
     "BASI_DI_DATI/note/SUBQUERY SCALARI.md",
     "BASI_DI_DATI/note/WHERE.md",
     "BASI_DI_DATI/note/SELECT.md",
-    "BASI_DI_DATI/note/FROM.md",
-    "BASI_DI_DATI/note/DATE_ADD.md",
-    "BASI_DI_DATI/note/database.md",
-    "BASI_DI_DATI/Progettazione/immagini1/Pasted image 20250426161228.png",
-    "BASI_DI_DATI/Progettazione/immagini1/Pasted image 20250426170044.png",
     "BASI_DI_DATI/Progettazione/immagini1",
-    "BASI_DI_DATI/SQL/appunti/IL RAGGRUPPAMENTO.md",
-    "BASI_DI_DATI/SQL/appunti/COME FUNZIONA SQL.md",
-    "BASI_DI_DATI/Progettazione/DIPENDENZE FUNZIONALI.md",
-    "BASI_DI_DATI/SQL/appunti/CONTEGGIO IN SQL.md",
-    "BASI_DI_DATI/SQL/appunti/SOMMA E MEDIA.md",
     "BASI_DI_DATI/SQL/appunti/immagini",
-    "BASI.md",
-    "BASI_DI_DATI/esercizi/CORRELATED SUBQUERY ESERCIZI.md",
     "BASI_DI_DATI/Progettazione",
-    "BASI_DI_DATI/esercizi/DIPENDENZE FUNZIONALI.md",
     "BASI_DI_DATI/Progettazione/immagini",
-    "ortopedici.md",
-    "BASI_DI_DATI/esercizi/esercizi.md",
-    "BASI_DI_DATI/note/DIVISIONE.md",
     "Senza nome.canvas",
     "BASI_DI_DATI",
-    "BASI_DI_DATI/SQL/appunti",
     "Untitled.canvas"
   ]
 }

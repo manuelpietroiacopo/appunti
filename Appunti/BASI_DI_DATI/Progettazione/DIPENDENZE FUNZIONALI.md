@@ -114,16 +114,19 @@ Sia F un insieme di FD su R(Z) e sia X->Y:
 La definizione di implicazione non è direttamente utilizzabile nella pratica 
 • Essa prevede una quantificazione universale sulle istanze della base di dati (“per ogni istanza …”) 
 • Non abbiamo un algoritmo per calcolare tutte le dipendenze funzionali implicate da un insieme
-• **Armstrong** (1974) ha fornito delle ==regole di inferenza== che permettono di derivare costruttivamente tutte le dipendenze funzionali che sono implicate da un dato insieme iniziale F:
-
-	RIFLESSIVITA': se Y contenuto in X, allora X->Y
-	ADDITIVITA': se X->Y allora XZ->YZ per ogni Z
-	TRANSITIVITA': se X->Y e Y->Z, allora X->Z
-		
-
 
 ---
-### DERIVAZIONE
+#### REGOLE DI ARMSTRONG
+• **Armstrong** (1974) ha fornito delle ==regole di inferenza== che permettono di derivare costruttivamente tutte le dipendenze funzionali che sono implicate da un dato insieme iniziale F:
+
+RIFLESSIVITA': se Y contenuto in X, allora X->Y
+
+ADDITIVITA': se X->Y allora XZ->YZ per ogni Z
+
+TRANSITIVITA': se X->Y e Y->Z, allora X->Z	
+
+---
+### DERIVAZIONE (|-)
 Dati: 
 • un insieme di regole di inferenza RI, 
 • un insieme di dipendenze funzionali e 
@@ -195,6 +198,9 @@ ___
 In sostanza, nello schema di FD, una chiave è tale se non è possibile ricavarla da altro se non sè stessa.
 (Banalmente se sta solo a sinistra della freccia)
 
+Per determinare una chiave parto dagli elementi che non compaiono mai a destra e calcolo la chiusura.
+Gli elementi che compaiono solo a destra NON saranno MAI parte della chiave.
+
 ----
 ![hh](immagini/Pasted%20image%2020250424192247.png)
 
@@ -211,3 +217,47 @@ B) controllando ciclicamente, applicando eventualmente [[#DERIVAZIONE|le leggi d
 
 
 ![hh](immagini/Pasted%20image%2020250426161228.png)
+
+---
+
+Dato uno schema R(T) e due insieme di DF F e G us R(T), questi sono equivalenti se e solo se F+=G+
+
+
+es. F {A ->C, AC ->D, E ->AD, E ->H}
+G {A -> CD, E -> AH}
+
+1) Tutte le DF di F appartengono a G+
+G |= A -> C: A -> CD |- A->C
+AC -> D: A->CD => AC -> CD => AC -> D
+E -> AD: E -> AH => E -> A e anche A -> CD => A -> D DUNQUE E -> AD
+E -> H: E ->AH => E -> H
+
+2) Tutte le DF di G appartengono a F+
+
+---
+
+### COPERTURA MINIMALE:
+F è una copertura minimale se e solo se:
+1) Ogni parte destra di una DF di F ha un unico attributo; (es. A->CD diventa A->C e A->D)
+2) Le DF di F non contengono[[#ATTRIBUTI ESTRANEI| attributi estranei]] (attributo a sinistra che non cambia nulla); 
+3) Non esistono DF ridondanti;
+
+2 ) Data X -> Y appartenente a F, A app. a X è un attributo estraneo se e solo se: 
+es. F {A->B, AB->C} ---> AB->C contiene estranei? A è estraneo? Se e solo se {A->B, AB->C} equivale {A->B, B->C}.
+
+AB->C appart. {A->B, B->C}+
+
+B è estraneo: {A->B, AB->C} = {A->B, A->C} 
+            ABC                      ABC
+
+3 ) F equivale F-{X->Y}            es. A->B, B->C, A->C <------ A->C RIDONDANTE
+
+
+----
+###### ATTRIBUTI ESTRANEI: 
+si dice estraneo un attributo il quale gli attributi derivati dalle dipendenze dov'è compreso questo, si possono ricavare senza lui.
+![dsa](immagini/Pasted%20image%2020250430114454.png)
+
+
+
+

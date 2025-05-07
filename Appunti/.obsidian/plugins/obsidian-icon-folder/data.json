@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiArchive",
+      "LiAppWindowMac",
       "LiAward",
       "LiAudioWaveform",
-      "LiArrowUpZa",
-      "LiAlignLeft",
-      "LiAlignCenter"
+      "LiArrowUpZa"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -38,5 +38,7 @@
   "BASI_DI_DATI/SQL": "LiAudioWaveform",
   "BASI_DI_DATI/esercizi": "LiBackpack",
   "BASI_DI_DATI/SQL/indice": "LiAlignLeft",
-  "BASI_DI_DATI/SQL/appunti": "LiAward"
+  "BASI_DI_DATI/SQL/appunti": "LiAward",
+  "ALGORITMI": "LiAppWindowMac",
+  "BASI_DI_DATI": "LiArchive"
 }

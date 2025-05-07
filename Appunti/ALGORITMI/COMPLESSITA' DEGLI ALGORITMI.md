@@ -99,3 +99,16 @@ In questo caso sono uguali, infatti 2*(1/2)n^2=n^2, e n^2  = n^2 banalmente.
 
 
 #### LIMITE ASINTOTICO STRETTO: notazione Θ
+
+**f(n) è Θ (g(n)) se f(n) è O g(n) e f(n) è Ω (g(n))**
+
+In breve, f(n) e g(n) hanno stesso ordine di complessità:
+è vero quindi se esistono n0 e c1, c2 >0 t.c.. per ogni n>=n0 c1 g(n) <= f(n) <= c2 g(n).
+
+![fsa](imalg/Pasted%20image%2020250502103729.png)
+
+
+---
+
+### COMPLESSITA' PROGRAMMI ITERATIVI
+
