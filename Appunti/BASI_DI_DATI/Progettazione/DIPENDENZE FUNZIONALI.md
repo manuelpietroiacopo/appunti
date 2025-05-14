@@ -253,6 +253,8 @@ B è estraneo: {A->B, AB->C} = {A->B, A->C}
 3 ) F equivale F-{X->Y}            es. A->B, B->C, A->C <------ A->C RIDONDANTE
 
 
+
+
 ----
 ###### ATTRIBUTI ESTRANEI: 
 si dice estraneo un attributo il quale gli attributi derivati dalle dipendenze dov'è compreso questo, si possono ricavare senza lui.
@@ -261,3 +263,10 @@ si dice estraneo un attributo il quale gli attributi derivati dalle dipendenze d
 
 
 
+### OK, MA PER CALCOLARE LA COPERTURA MINIMALE, COME FACCIO?
+
+
+Dato R(T, F): 
+- Controllo prima che tutti le dipendenze diano un solo attributo per volta, es. X->Y, e nel caso non sia così, es. X->YZ, riscrivo come X->Y, X->Z;
+- Controllo eventuali attributi estranei, nel caso in cui ci siano dipendenze con a sinistra due o più attributi, es. XY->Z, e togliendo uno dei due, X o Y, se riesco ad avere la stessa copertura;
+- Controllo le varie ridonanze, non considerando una dipendenza e vedendo se riesco a ricavare lo/gli stesso/i attributo/i: es. X->Y ridondante? Sì se riesco a ricavare, partendo da X, Y senza usare quella dipendenza.
