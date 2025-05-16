@@ -8,13 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0221651274d2772c",
+            "id": "a477da71b2685d37",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "BASI_DI_DATI/SQL/appunti/STORED PROCEDURE.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "Nuova scheda"
+              "title": "STORED PROCEDURE"
             }
           }
         ]
@@ -109,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ALGORITMI/COMPLESSITA' DEGLI ALGORITMI.md",
+                "file": "BASI_DI_DATI/Progettazione/CONTROLLO DELLA CONCORRENZA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Collegamenti in uscita da COMPLESSITA' DEGLI ALGORITMI"
+              "title": "Collegamenti in uscita da CONTROLLO DELLA CONCORRENZA"
             }
           },
           {
@@ -193,13 +207,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0221651274d2772c",
+  "active": "a477da71b2685d37",
   "lastOpenFiles": [
-    "CONTROLLO DELLA CONCORRENZA.md",
-    "kuguyfgu.md",
-    "BASI_DI_DATI/Progettazione/NORMALIZZAZIONE.md",
-    "ALGORITMI/COMPLESSITA' DEGLI ALGORITMI.md",
+    "BASI_DI_DATI/SQL/appunti/immagini",
+    "BASI_DI_DATI/SQL/appunti/immagini/IMG-20250516102828148.png",
+    "BASI_DI_DATI/SQL/appunti/SUBQUERY.md",
+    "BASI_DI_DATI/SQL/appunti/STORED PROCEDURE.md",
+    "BASI_DI_DATI/SQL/FORMULE.md",
+    "BASI_DI_DATI/Progettazione/immagini/Pasted image 20250515080750.png",
+    "BASI_DI_DATI/Progettazione/CONTROLLO DELLA CONCORRENZA.md",
     "BASI_DI_DATI/Progettazione/DIPENDENZE FUNZIONALI.md",
+    "BASI_DI_DATI/note/ACID.md",
+    "BASI_DI_DATI/Progettazione/NORMALIZZAZIONE.md",
+    "kuguyfgu.md",
+    "ALGORITMI/COMPLESSITA' DEGLI ALGORITMI.md",
     "ALGORITMI/Senza nome.md",
     "{{folder}}/immagini/IMG-20250507154201718.png",
     "BASI_DI_DATI/Progettazione/immagini/Pasted image 20250507165837.png",
@@ -213,16 +234,13 @@
     "Pasted image 20250507154200.png.md",
     "{{folder}}/immagini",
     "{{folder}}",
-    "BASI_DI_DATI/Progettazione/immagini/Pasted image 20250507153616.png",
     "BASI_DI_DATI/SQL/appunti/JOIN.md",
-    "BASI_DI_DATI/Progettazione/immagini/Pasted image 20250507095803.png",
     "BASI_DI_DATI/SQL/appunti/RIPASSO AL FLY.md",
     "BASI_DI_DATI/SQL/appunti/DATE IN SQL.md",
     "BASI_DI_DATI/note/DATE_ADD.md",
     "BASI_DI_DATI/esercizi/es query.md",
     "BASI_DI_DATI/esercizi/es DF.md",
     "BASI_DI_DATI/SQL/appunti/IL RAGGRUPPAMENTO.md",
-    "BASI_DI_DATI/SQL/appunti/SUBQUERY.md",
     "HAVING.md",
     "BASI_DI_DATI/note/DIVISIONE.md",
     "BASI_DI_DATI/esercizi/NON CORRELATED SUBQUERY.md",
@@ -230,16 +248,11 @@
     "imalg/Pasted.md",
     "imalg",
     "BASI_DI_DATI/esercizi/link esercizi.md",
-    "immagini/Pasted.md",
     "ALGORITMI/immagini/Senza nome",
     "immagini",
     "ALGORITMI/imalg",
-    "ALGORITMI.md",
     "ALGORITMI",
-    "BASI_DI_DATI/SQL/appunti/immagini/Pasted.md",
-    "BASI_DI_DATI/note/COMMON TABLE EXPRESSION (CTE).md",
     "BASI_DI_DATI/Progettazione/immagini1",
-    "BASI_DI_DATI/SQL/appunti/immagini",
     "BASI_DI_DATI/Progettazione",
     "Senza nome.canvas",
     "Untitled.canvas"
