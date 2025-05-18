@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BASI_DI_DATI/SQL/appunti/STORED PROCEDURE.md",
+                "file": "BASI_DI_DATI/Progettazione/CONTROLLO DELLA CONCORRENZA.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STORED PROCEDURE"
+              "title": "CONTROLLO DELLA CONCORRENZA"
             }
           }
         ]
@@ -207,29 +207,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a477da71b2685d37",
+  "active": "355de39f365397bf",
   "lastOpenFiles": [
+    "BASI_DI_DATI/Progettazione/immagini/IMG-20250517174929256.png",
+    "BASI_DI_DATI/Progettazione/immagini/IMG-20250517174858376.png",
+    "BASI_DI_DATI/Progettazione/immagini/IMG-20250517165752201.png",
+    "BASI_DI_DATI/Progettazione/immagini/IMG-20250517155823471.png",
+    "BASI_DI_DATI/Progettazione/immagini/IMG-20250507161740630.png",
+    "BASI_DI_DATI/Progettazione/immagini/IMG-20250507161658155.png",
+    "BASI_DI_DATI/Progettazione/CONTROLLO DELLA CONCORRENZA.md",
+    "FORMULE.md",
+    "BASI_DI_DATI/Progettazione/DIPENDENZE FUNZIONALI.md",
+    "BASI_DI_DATI/Progettazione/NORMALIZZAZIONE.md",
+    "BASI_DI_DATI/SQL/appunti/STORED PROCEDURE.md",
     "BASI_DI_DATI/SQL/appunti/immagini",
     "BASI_DI_DATI/SQL/appunti/immagini/IMG-20250516102828148.png",
     "BASI_DI_DATI/SQL/appunti/SUBQUERY.md",
-    "BASI_DI_DATI/SQL/appunti/STORED PROCEDURE.md",
-    "BASI_DI_DATI/SQL/FORMULE.md",
     "BASI_DI_DATI/Progettazione/immagini/Pasted image 20250515080750.png",
-    "BASI_DI_DATI/Progettazione/CONTROLLO DELLA CONCORRENZA.md",
-    "BASI_DI_DATI/Progettazione/DIPENDENZE FUNZIONALI.md",
     "BASI_DI_DATI/note/ACID.md",
-    "BASI_DI_DATI/Progettazione/NORMALIZZAZIONE.md",
     "kuguyfgu.md",
     "ALGORITMI/COMPLESSITA' DEGLI ALGORITMI.md",
     "ALGORITMI/Senza nome.md",
     "{{folder}}/immagini/IMG-20250507154201718.png",
     "BASI_DI_DATI/Progettazione/immagini/Pasted image 20250507165837.png",
     "BASI_DI_DATI/Progettazione/immagini/Pasted image 20250507165428.png",
-    "BASI_DI_DATI/Progettazione/immagini/Pasted image 20250507164434.png",
-    "BASI_DI_DATI/Progettazione/immagini/Pasted image 20250507164426.png",
-    "BASI_DI_DATI/Progettazione/immagini/IMG-20250507161740630.png",
-    "BASI_DI_DATI/Progettazione/immagini/IMG-20250507161658155.png",
-    "BASI_DI_DATI/Progettazione/immagini/IMG-20250507160022403.png",
     "202505071559.md",
     "Pasted image 20250507154200.png.md",
     "{{folder}}/immagini",
