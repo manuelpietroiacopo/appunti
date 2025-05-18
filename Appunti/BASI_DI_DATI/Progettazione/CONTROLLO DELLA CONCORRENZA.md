@@ -141,7 +141,7 @@ Uno schedule è serializzabile se l'esecuzione di esso produce lo stesso risulta
 ---
 RIASSUMENDO: 
 
-![[IMG-20250517155823471.png]]
+![](immagini/3.png)
 
 ---
 
@@ -175,7 +175,7 @@ concludiamo col dire che sono *view-equivalenti*.
 ### SCHEDULE VIEW-SERIALIZZABILE (VSR)
 Uno schedule è *view*-serializzabile se è *view*-equivalente ad un qualche schedule seriale con le stesse transizioni di S.
 
-![[IMG-20250517165752201.png]]
+![](immagini/4.png)
 
 ---
 ### *CONFLICT* EQUIVALENZA
@@ -197,12 +197,12 @@ Uno schedule è conflict serializzabile se è *conflict*-equivalente a un qualch
 ---
 ### GRAFO DEI CONFLITTI 
 
-![[IMG-20250517174858376.png]]
+![d](immagini/5.png)
 #### CONFLICT SERIALIZZABILITA'
 Uno schedule S è conflict-serializzabile se e solo se il suo grafo dei conflitti G(S) è aciclico.
 
 
-![[IMG-20250517174929256.png]]
+![](immagini/6.png)
 
 
 ---
