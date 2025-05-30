@@ -8,11 +8,11 @@ Le operazioni di transazioni sono:
 - commit $c(t)$: terminazione con successo
 - abort $a(t)$: indica la terminazione a causa di un guasto, non va a buon fine
 Una transazione ha le seguenti proprietà:
-- atomicità: solo le transazioni che terminano con successo (committed) modificano la base di dati; O TUTTO O NIENTE
+- **atomicità**: solo le transazioni che terminano con successo (committed) modificano la base di dati; O TUTTO O NIENTE
 
 - **isolamento**: quando una transazione e eseguita contemporaneamente ad altre, lo stato finale della base di dati deve essere lo stesso che otterrebbe se la transazione fosse eseguita da sola E' garantito dal gestore della concorrenza.
 
-- durabilità: gli effetti delle transazioni terminate con successo devono sopravvivere ai guasti.
+- **durabilità**: gli effetti delle transazioni terminate con successo devono sopravvivere ai guasti.
 
 Una generica transazione, con omissione di $begin$ e $abort$ (aggiunte automaticamente dal DBMS e $abort$ generato automaticamente dal gestore della concorrenza), è rappresentata così:
 #### $$T=p_1...p_n$$
@@ -39,7 +39,7 @@ Spesso e volentieri le transazioni vengono effettuate in parallelo, quindi le op
 Il gestore, senza un oppportuno meccanisco di controllo della concorrenza, ricevendo richieste simultanee e dovendo eseguire operazioni in parallelo, questo può generare *anomalie*, ovvero problemi tra operazioni di diverse transizioni.
 
 ---
-### ECCO ALCUNI ESEMPI DI PROBLEMI
+### ALCUNI ESEMPI DI PROBLEMI
 
 #### PERDITA DI AGGIORNAMENTO
 es. 
@@ -65,6 +65,22 @@ $c_1$
 Il problema qui è che, $T_1$ e $T_2$ svolgono in parallello ma riscrivono sullo stesso oggetto, dunque: $T_1$ aggiorna $x$ di 1, ma non lo scrive ancora sul DB, nel frattempo parte anche $T_2$ e aggiorna anch'esso $x$, senza però contare l'aggiornamento di $T_1$, PERCHE' NON E' STATO SCRITTO ANCORA; alla fine, $T_1$ scrive il suo valore $x+1$, nel nostro caso 2+1=3, e $T_2$ sovrascrive 3 con 3, non "combinando" le due transazioni.
 
 
+#### LETTURA SPORCA:
+Supponiamo di avere:
+$T_1 = r_1(x)w_1(x)$
+$T_2=r_2(x)$
+
+$T1$              $T2$
+$b_1$      
+$r_1(x)$ 
+$x$<-$(x+1)$
+$w_1(x)$
+		$b_2$
+		$r_2(x)$
+$a_1$
+		$c_2$
+
+In questo caso $T_1$ termina a causa di un guasto, e le sue operazioni sono annullate. Però $T_2$ ha letto con $r_2(x)$ uno stato intermedio "sporco" che non è consistente con la basi di dati.
 #### LETTURE INCONSISTENTI
 
 $T_1 = r_1(x)r_1(x)$
@@ -248,4 +264,10 @@ $T_2 = w_2(y)w_2(x)$
 
 e le operazioni vengono svolte così: $r_1(x)w_2(y)w_1(y)w_2(x)$.
 All'inizio $r_1(x)$ prende il lock $rl_1(x)$, poi $w_2(y)$ prende il lock $wl_2(y)$, quindi $w_1(y)$ viene messa in attesa perchè altrimenti andrebbe in conflitto con $wl_2(y)$, allora $w_2(x)$ prova a prendere il lock ma non può perchè andrebbe in conflitto con $rl_1(x)$, quindi va in attesa anch'esso; ora mi trovo con entrambe le transazioni bloccate.
-Bisogna anticipare quindi questi deadlock
+Bisogna anticipare quindi questi deadlock.
+#### MECCANISMI CONTRO IL DEADLOCK:
+###### Timeout:
+Se dopo un certo periodo di tempo, detto **timeout**, una transazione rimane in attesa, lo scheduler abortisce la transazione, e ciò non crea problemi di consistenza alla base di dati. (Per evitare errori nel caso in cui vi siano grandi transazioni e lo scheduler le interpreti come un deadlock, si può impostare un timeout molto grande, che però può portare a perdite di tempo).
+
+###### Identificazione del deadlock:
+Per identificare un deadlock, lo scheduler usa un **grafo delle attese**: se si nota un ciclo nel grafo, si ha un deadlock. Una volta individiuato, lo scheduler sceglie una delle transazioni e la abortisce, eliminando il ciclo.

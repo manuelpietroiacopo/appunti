@@ -43,7 +43,7 @@ si possono usare per modificare il flusso di esecuzione in base al risultato del
 es. 
 Scrivere una stored procedure che riceva come parametro un intero t e una specializzazione s e restituisca in uscita true se il numero di visite della specializzazione s nel mese in corso è superiore a t, false se è inferiore, e NULL se è uguale.
 
-![[IMG-20250516102828148.png]]
+![](immagini/IMG-20250516102828148.png)
 
 Il CASE lavora come lo SWITCH in C++.
 
@@ -60,4 +60,46 @@ Si dichiara con loop_label: LOOP
 *blocco di istruzioni*
 END LOOP
 
-Le funzioni LEAVE e ITERATE permettono di interrompere un ciclo o passare all'iterazione successiva: il LEAVE è l'equivalente del break in C++
+Le funzioni LEAVE e ITERATE permettono di interrompere un ciclo o passare all'iterazione successiva: il LEAVE è l'equivalente del break in C++.
+
+---
+### CURSORI 
+Un cursore è come un puntatore, il qual permette di navigare all'interno delle tabelle **SOLO IN AVANTI** per fare cose all'interno di istruzioni iterative.
+Si dichiara:
+**DECLARE** NomeCursore CURSOR FOR (query SQL);
+(VANNO DICHIARATI SUBITO DOPO TUTTE LE VARIABILI)
+Per usare un cursore bisogna: 
+- aprirlo (OPEN NomeCursore);
+- prelevare ciò che ci serve (FETCH NomeCursore INTO ListaVariabili);
+- richiuderlo (CLOSE NomeCursore);
+
+---
+### HANDLER
+
+L'**handler** è il gestore di situazioni, utili pure per riconoscere la fine del result set quando si usano i cursori.
+(Si possono definire subito dopo i cursori e le variabili).
+es.
+##### NOT FOUNT HANDLER:
+DECLARE CONTINUE HANDLER FOR NOT FOUND
+SET finito=1;
+(Quando non trova più un oggetto, setta finito su '1', ovvero TRUE, ed indica che la lista è finita).
+
+---
+### INSERIMENTO
+
+Permette di inserire un nuovo record i cui valori possono essere sia statici che ricavati.
+
+INSERT INTO NomeTabella (posso omettere lo schema se metto tutti i valori rispettando l'ordine o in alternativa si scelgono gli attributi da mettere)
+VALUES (valori) OPPURE Queryperselezionare (prendo i valori da una query che sia però coerente come risultati)
+
+---
+### AGGIORNAMENTO
+
+UPGRADE NomeTabella
+SET aggiornamenti
+
+---
+### CANCELLAZIONE
+DELETE FROM NomeTabella
+WHERE Condizione
+

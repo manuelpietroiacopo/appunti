@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a477da71b2685d37",
+            "id": "a8843471c11a138c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BASI_DI_DATI/Progettazione/CONTROLLO DELLA CONCORRENZA.md",
+                "file": "FISICA/PRIMA_PARTE/MOTI/MOTO CIRCOLARE.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CONTROLLO DELLA CONCORRENZA"
+              "title": "MOTO CIRCOLARE"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 200
   },
   "right": {
     "id": "49efd1654acb57bd",
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BASI_DI_DATI/Progettazione/NORMALIZZAZIONE.md",
+                "file": "FISICA/PRIMA_PARTE/MOTO CIRCOLARE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Riferimenti a NORMALIZZAZIONE"
+              "title": "Riferimenti a MOTO CIRCOLARE"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BASI_DI_DATI/Progettazione/CONTROLLO DELLA CONCORRENZA.md",
+                "file": "FISICA/PRIMA_PARTE/MOTO CIRCOLARE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Collegamenti in uscita da CONTROLLO DELLA CONCORRENZA"
+              "title": "Collegamenti in uscita da MOTO CIRCOLARE"
             }
           },
           {
@@ -207,53 +207,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a477da71b2685d37",
+  "active": "a8843471c11a138c",
   "lastOpenFiles": [
-    "BASI_DI_DATI/Progettazione/immagini/6.png",
-    "BASI_DI_DATI/Progettazione/immagini/3.png",
-    "BASI_DI_DATI/Progettazione/immagini/5.png",
-    "BASI_DI_DATI/Progettazione/immagini/Pasted image 20250419160103.png",
-    "BASI_DI_DATI/Progettazione/CONTROLLO DELLA CONCORRENZA.md",
-    "immagini.md",
-    "BASI_DI_DATI/Progettazione/immagini/4.png",
-    "BASI_DI_DATI/Progettazione/immagini/2.png",
-    "BASI_DI_DATI/Progettazione/immagini/1.png",
-    "BASI_DI_DATI/note/ACID.md",
-    "BASI_DI_DATI/Progettazione/immagini/Pasted image 20250419163921.png",
-    "BASI_DI_DATI/Progettazione/immagini/Pasted image 20250419160158.png",
-    "BASI_DI_DATI/Progettazione/immagini/IMG-20250507161658155.png",
-    "BASI_DI_DATI/Progettazione/immagini/immagini",
-    "BASI_DI_DATI/Progettazione/immagini/nomina.py",
+    "FISICA/PRIMA_PARTE/VETTORI.md",
+    "FISICA/PRIMA_PARTE/MOTI/MOTO CIRCOLARE.md",
+    "FISICA/PRIMA_PARTE/immagini/immagini/IMG-20250530103324905.png",
+    "FISICA/PRIMA_PARTE/immagini/immagini",
+    "FISICA/PRIMA_PARTE/MOTI",
+    "FISICA/PRIMA_PARTE/immagini/immagini/IMG-20250530100322814.png",
+    "FISICA/PRIMA_PARTE/MOTI/MOTO PARABOLICO.md",
+    "FISICA/PRIMA_PARTE/immagini/immagini/IMG-20250530100324702.png",
+    "FISICA/PRIMA_PARTE/MOTI/MOTO CURVILINEO.md",
+    "FISICA/PRIMA_PARTE/immagini/immagini/IMG-20250530100323825.png",
+    "FISICA/PRIMA_PARTE/immagini/immagini/IMG-20250530100323776.png",
+    "FISICA/PRIMA_PARTE/SISTEMA DI COORDINATE.md",
     "FORMULE.md",
+    "FISICA/PRIMA_PARTE/immagini/immagini/IMG-20250530100323730.png",
+    "FISICA/PRIMA_PARTE/immagini/immagini/IMG-20250530100323681.png",
+    "FISICA/PRIMA_PARTE/immagini/IMG-20250529204333170.png",
+    "FISICA/PRIMA_PARTE/immagini/IMG-20250529203811431.png",
+    "FISICA/PRIMA_PARTE/immagini/IMG-20250529193851148.png",
+    "FISICA/PRIMA_PARTE/immagini/immagini",
+    "FISICA/PRIMA_PARTE/immagini",
     "BASI_DI_DATI/Progettazione/DIPENDENZE FUNZIONALI.md",
+    "FISICA/PRIMA_PARTE",
+    "FISICA",
+    "BASI_DI_DATI/Progettazione/CONTROLLO DELLA CONCORRENZA.md",
     "BASI_DI_DATI/Progettazione/NORMALIZZAZIONE.md",
     "BASI_DI_DATI/SQL/appunti/STORED PROCEDURE.md",
-    "BASI_DI_DATI/SQL/appunti/immagini",
     "BASI_DI_DATI/SQL/appunti/SUBQUERY.md",
-    "kuguyfgu.md",
-    "ALGORITMI/COMPLESSITA' DEGLI ALGORITMI.md",
-    "ALGORITMI/Senza nome.md",
-    "202505071559.md",
-    "Pasted image 20250507154200.png.md",
-    "{{folder}}/immagini",
-    "{{folder}}",
+    "BASI_DI_DATI/note/ACID.md",
+    "BASI_DI_DATI/SQL/appunti/CONTEGGIO IN SQL.md",
+    "BASI_DI_DATI/SQL/appunti/DATE IN SQL.md",
+    "BASI_DI_DATI/SQL/appunti/IL RAGGRUPPAMENTO.md",
     "BASI_DI_DATI/SQL/appunti/JOIN.md",
     "BASI_DI_DATI/SQL/appunti/RIPASSO AL FLY.md",
-    "BASI_DI_DATI/SQL/appunti/DATE IN SQL.md",
+    "BASI_DI_DATI/SQL/appunti/SOMMA E MEDIA.md",
+    "BASI_DI_DATI/SQL/appunti/COME FUNZIONA SQL.md",
     "BASI_DI_DATI/note/DATE_ADD.md",
-    "BASI_DI_DATI/esercizi/es query.md",
-    "BASI_DI_DATI/esercizi/es DF.md",
-    "BASI_DI_DATI/SQL/appunti/IL RAGGRUPPAMENTO.md",
-    "HAVING.md",
-    "BASI_DI_DATI/note/DIVISIONE.md",
-    "BASI_DI_DATI/esercizi/NON CORRELATED SUBQUERY.md",
-    "BASI_DI_DATI/esercizi/CORRELATED SUBQUERY ESERCIZI.md",
-    "imalg/Pasted.md",
-    "imalg",
-    "ALGORITMI/immagini/Senza nome",
-    "immagini",
-    "ALGORITMI/imalg",
-    "ALGORITMI",
+    "BASI_DI_DATI/note/COMMON TABLE EXPRESSION (CTE).md",
+    "BASI_DI_DATI/note/SUBQUERY SCALARI.md",
+    "BASI_DI_DATI/note/SELECT.md",
+    "immagini.md",
+    "BASI_DI_DATI/Progettazione/immagini/immagini",
+    "BASI_DI_DATI/Progettazione/immagini/nomina.py",
+    "BASI_DI_DATI/SQL/appunti/immagini",
+    "kuguyfgu.md",
+    "{{folder}}/immagini",
     "Senza nome.canvas",
     "Untitled.canvas"
   ]
